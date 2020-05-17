@@ -1,10 +1,10 @@
+/* eslint-disable linebreak-style */
 /* ************************************************************************************************
  *                                                                                                *
  * Plese read the following tutorial before implementing tasks:                                   *
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise       *
  *                                                                                                *
  ************************************************************************************************ */
-
 
 /**
  * Return Promise object that is resolved with string value === 'Hooray!!! She said "Yes"!',
@@ -31,7 +31,6 @@
 function willYouMarryMe(/* isPositiveAnswer */) {
   throw new Error('Not implemented');
 }
-
 
 /**
  * Return Promise object that should be resolved with array containing plain values.

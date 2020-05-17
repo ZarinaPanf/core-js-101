@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* *******************************************************************************************
  *                                                                                           *
  * Plese read the following tutorial before implementing tasks:                              *
@@ -7,7 +8,6 @@
  * https://regexr.com                                                                        *
  *                                                                                           *
  ******************************************************************************************* */
-
 
 /**
  * Returns the regexp that matches a GUID string representation
@@ -35,7 +35,6 @@ function getRegexForGuid() {
   throw new Error('Not implemented');
 }
 
-
 /**
  * Returns the regexp that matches all the strings from first column
  * but of them from the second
@@ -56,7 +55,6 @@ function getRegexForGuid() {
 function getRegexForPitSpot() {
   throw new Error('Not implemented');
 }
-
 
 /**
  * Returns the password validator regex.
@@ -81,7 +79,6 @@ function getRegexForPitSpot() {
 function getPasswordValidator(/* minLength */) {
   throw new Error('Not implemented');
 }
-
 
 module.exports = {
   getRegexForGuid,
